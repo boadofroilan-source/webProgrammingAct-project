@@ -32,7 +32,7 @@ header{
     align-items: center;
     gap: 10px;
     padding: 10px;
-    background-color: goldenrod, gold, yellow, yellowgreen, darkgreen;
+    background-color: solid darkgreen;
     color: white;
     font-size:large;
     font-weight: bold;
