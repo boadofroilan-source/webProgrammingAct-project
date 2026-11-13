@@ -26,21 +26,22 @@ body{
 }
 
 header{
+    height: 300px;
     grid-area: header;
     display: flex;
     align-items: center;
     gap: 10px;
     padding: 10px;
-    background-color: goldenrod;
+    background-color: goldenrod, gold, yellow, yellowgreen, darkgreen;
     color: white;
-    font-size: 20px;
+    font-size:large;
     font-weight: bold;
-    border-bottom: 5px solid darkgreen;
+    border-bottom: 5px solid goldenrod;
 }
 
 header img{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
     padding: 5px;
 }
@@ -92,7 +93,7 @@ form{
 }
 
 #h3{
-    text-align: center;
+    align-items: center;
     font-size: 16px;
     font-weight: bold;
     color: black;
