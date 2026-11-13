@@ -1,12 +1,12 @@
 body{
-    background-color: #88dffa;
+    background-color: #28e778;
     font-family: Arial, sans-serif;
 }
 .logo{
     height: 75px;
     width:75px;
 }
-.container div.header{
+header{
     display: flex;
     align-items: left;
     justify-content: space-between;
