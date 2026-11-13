@@ -32,7 +32,7 @@ header{
     align-items: center;
     gap: 10px;
     padding: 10px;
-    background-color: linear-gradient(goldenrod, yellow, yellowgreen , darkgreen);
+    background: linear-gradient(goldenrod, yellow, yellowgreen , darkgreen);
     color: white;
     font-size:large;
     font-weight: bold;
@@ -63,7 +63,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: linear-gradient(goldenrod, yellow, yellowgreen , darkgreen);
+    background: linear-gradient(goldenrod, yellow, yellowgreen , darkgreen);
     color: darkgreen;
     font: bold;
     border-radius: 5px;
