@@ -64,9 +64,10 @@ nav a{
 
 nav a:hover{
     background: linear-gradient(goldenrod, darkgreen);
-    color: darkgreen;
+    color: black;
     font-size: larger;
-    border-radius: 5px;
+    font:bolder;
+    border-radius: 3px;
 }
 
 main{
