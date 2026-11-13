@@ -1,21 +1,104 @@
-body{
-    background-color: #084d24;
-    font-family: Arial, sans-serif;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.logo{
-    height: 75px;
-    width:75px;
-}
-header{
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: yellow;
-}
-nav{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
 
+:root{
+    --bg-color: #ebecec;
+
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "main aside"
+        "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    column-gap: 32px;
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 5px solid goldenrod;
+}
+
+header img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    padding: 5px;
+}
+
+nav{
+    grid-area: nav;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 2px black solid;
+    padding: 14px 32px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+nav a:hover{
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5px;
+}
+
+main{
+    grid-area: main;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    max-width: 440px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 16px;
+    border: 1px solid #0000001f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
 }
