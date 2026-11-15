@@ -176,6 +176,7 @@ aside {
     grid-area: aside;
     display: flex;
     min-width: 0;
+    padding: 15px;
 }
 
 .sluc {
