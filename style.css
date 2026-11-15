@@ -175,17 +175,14 @@ button:focus-visible {
 aside {
     grid-area: aside;
     display: flex;
-    align-items: center;
-    justify-content: center;
     min-width: 0;
-    padding: 32px 24px 32px 0;
 }
 
 .sluc {
     display: block;
-    width:auto;
-    max-height: auto;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 14px;
     box-shadow: 0 12px 30px rgb(26 53 29 / 12%);
 }
@@ -231,14 +228,6 @@ footer {
 
     main {
         margin-block: 28px;
-    }
-
-    aside {
-        padding: 0 20px 32px;
-    }
-
-    .sluc {
-        max-height: 360px;
     }
 }
 
