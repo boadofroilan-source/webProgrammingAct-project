@@ -37,7 +37,7 @@ header {
     gap: 18px;
     padding: 12px clamp(20px, 5vw, 64px);
     color: #fff;
-    background: linear-gradient(110deg, var(--green-dark), var(--green) 65%, #36743b);
+    background: linear-gradient(110deg, var(--green-dark), var(--green) 65%, goldenrod);
     border-bottom: 5px solid var(--gold);
 }
 
@@ -47,7 +47,7 @@ header img {
     flex: 0 0 auto;
     object-fit: contain;
     padding: 4px;
-    background: #fff;
+    background: goldenrod;
     border-radius: 50%;
 }
 
